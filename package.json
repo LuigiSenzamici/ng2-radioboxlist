@@ -1,0 +1,25 @@
+{
+  "name": "ng2-radioboxlist",
+  "version": "1.0.0",
+  "description": "Angular 2 radiobox list component",
+  "main": "radioboxlist.js",
+  "scripts": {
+    "debug": "tsc --project ./tsconfig.debug.json",
+    "build": "tsc --project ./tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "radiobox",
+    "ng2-radiobox"
+  ],
+  "author": "Luigi Senzamici (luigisenzamici@gmail.it)",
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/common": "^4.4.0-RC.0",
+    "@angular/core": "^4.4.0-RC.0",
+    "rxjs": "^5.4.3"    
+  },
+  "dependencies": {
+
+  }
+}
