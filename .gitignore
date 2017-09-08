@@ -67,6 +67,7 @@ obj/*
 doc/detail/*
 quickVisualTest/*
 temp/*
+
 radioboxlist.js.map
 radioboxlist.js
 radioboxlist.d.ts
