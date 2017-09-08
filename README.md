@@ -92,10 +92,10 @@ For using css file theme you have to set styles property in .angular-cli.json li
 [IMPORTANT] if you are under ng serve command you have to stop and repeat command (.angular-cli.json isn't watch by angular compiler)
 
 ### Dark Theme screeshoot
-![Dark Theme screeshoot](http://LuigiSenzamici.com/Content/Images/Common/radioboxlist/checkboxlist-dark-theme.PNG)
+![Dark Theme screeshoot](http://LuigiSenzamici.com/Content/Images/Common/radioboxlist/radioboxlist-dark-theme.PNG)
 
 ### Light Theme screenshoot
-![Light Theme screenshoot](http://LuigiSenzamici.com/Content/Images/Common/radioboxlist/checkboxlist-light-theme.PNG)
+![Light Theme screenshoot](http://LuigiSenzamici.com/Content/Images/Common/radioboxlist/radioboxlist-light-theme.PNG)
 
 ## Built With
 Typescript

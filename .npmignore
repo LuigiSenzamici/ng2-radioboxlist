@@ -72,7 +72,7 @@ jasmine.json
 karma.conf.js
 tsconfig.json
 typedoc.json
-checkboxlist.js.map
-checkboxlist.ts
+radioboxlist.js.map
+radioboxlist.ts
 
 
