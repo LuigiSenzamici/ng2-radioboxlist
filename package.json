@@ -1,6 +1,6 @@
 {
   "name": "ng2-radioboxlist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular 2 radiobox list component",
   "main": "radioboxlist.js",
   "scripts": {
