@@ -1,5 +1,5 @@
 # Radio Box List
-Angular 2 radiobox list component with theming, no dependency and customizable styles
+Angular 2 radiobox list component with theming, no dependencys and customizable styles
 ## Getting Started
 ```bash
 npm install ng2-radioboxlist --save

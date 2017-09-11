@@ -1,7 +1,7 @@
 {
   "name": "ng2-radioboxlist",
-  "version": "1.0.1",
-  "description": "Angular 2 radiobox list component",
+  "version": "1.0.2",
+  "description": "Angular 2 radiobox list component with theming, no dependencys and customizable styles",
   "main": "radioboxlist.js",
   "scripts": {
     "debug": "tsc --project ./tsconfig.debug.json",
