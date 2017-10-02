@@ -1,6 +1,6 @@
 {
   "name": "ng2-radioboxlist",
-  "version": "1.2.0",
+  "version": "1.2.5",
   "description": "Angular 2 radiobox list component with theming, no dependencys and customizable styles",
   "main": "radioboxlist.js",
   "scripts": {
@@ -8,12 +8,21 @@
     "build": "tsc --project ./tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuigiSenzamici/ng2-RadioBoxList.git"
+  },
   "keywords": [
     "radiobox",
     "ng2-radiobox"
   ],
   "author": "Luigi Senzamici (luigisenzamici@gmail.it)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuigiSenzamici/ng2-RadioBoxList/issues"
+  },
+  "homepage": "https://github.com/LuigiSenzamici/ng2-RadioBoxList#readme",
+
   "devDependencies": {
     "@angular/common": "^4.4.0-RC.0",
     "@angular/core": "^4.4.0-RC.0",

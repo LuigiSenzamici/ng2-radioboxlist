@@ -116,6 +116,7 @@ This project is licensed under the MIT License
 1.1.1 - adding input-struct and label-struct classes to default classes
 1.1.2 - bug fix on styles
 1.2.0 - adding preselected property
+1.2.1/1.2.2 - bugfix on selection
 
 
 
