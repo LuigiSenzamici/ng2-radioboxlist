@@ -101,7 +101,7 @@ export class RadioBoxList{
                 let res ={
                     tagId: ids,
                     value: id,
-                    text: this.list.filter(e=>e.id == id)[0][this.value]
+                    text: this.list.filter(e=>e[this.id] == id)[0][this.value]
                 }
                 this._selected = res;
                 this.selected.emit(this._selected);

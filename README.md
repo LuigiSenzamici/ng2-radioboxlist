@@ -110,5 +110,8 @@ Stylus
 
 This project is licensed under the MIT License 
 
+## Release note
+1.1.0 - bug fix on reading id setted
+
 
 
