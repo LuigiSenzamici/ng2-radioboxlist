@@ -49,6 +49,7 @@ insert selector
                [id] ="'id'"
                [value] = "'color'"
                [styles] = "checkboxStyles"
+               [preselected]="'1'" //id to preselect as string
                (selected) = "itemSelectedManager($event)"
                ></radiobox-list>
 ```
@@ -114,6 +115,7 @@ This project is licensed under the MIT License
 1.1.0 - bug fix on reading id setted
 1.1.1 - adding input-struct and label-struct classes to default classes
 1.1.2 - bug fix on styles
+1.2.0 - adding preselected property
 
 
 

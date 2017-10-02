@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter, AfterViewChecked } from '@angular/core';
 import { NgClass } from '@angular/common';
 @Component({
     selector: 'radiobox-list',
@@ -35,7 +35,7 @@ import { NgClass } from '@angular/common';
         }
     `]
 })
-export class RadioBoxList{
+export class RadioBoxList implements AfterViewChecked{
     @Input() list:any[];
     @Input() title:string = '';
     @Input() id:string= '';
@@ -63,11 +63,19 @@ export class RadioBoxList{
     }
     _selected:any;
     @Output() selected:EventEmitter<any> = new EventEmitter<any>();
-
+    @Input() preselected:string  ='';
     containerClasses:string[] = ['container-struct', 'container-base'];
     titleClasses:string[] = ['title-struct'];
     inputClasses:string[] =['input-struct'];
     labelClasses:string[] =['label-struct'];
+
+    ngAfterViewChecked(){
+        if(this.preselected){
+        let inp = document.getElementById('radiob-' + this.preselected);
+        inp.setAttribute("checked", "checked");
+        }
+
+    }
     private readSetting(value:string):any{
         let c:string[] = value.split(":");
         let v:string[] = c[1].split(",")
