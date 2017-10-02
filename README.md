@@ -43,14 +43,14 @@ import { RadioBoxList } from 'ng2-radioboxlist/radioboxlist.js';
 insert selector
 ```html
 <!-- app.component.html file -->
-<checkbox-list 
+<radiobox-list 
                [title]="'choose a color'"
                [list]="listItemToPass" 
                [id] ="'id'"
                [value] = "'color'"
                [styles] = "checkboxStyles"
                (selected) = "itemSelectedManager($event)"
-               ></checkbox-list>
+               ></radiobox-list>
 ```
 ## Styling
 you can style by applying class to container, title, input and label passing a string or an array of string to [styles] input property.
