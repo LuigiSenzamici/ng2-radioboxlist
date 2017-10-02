@@ -24,6 +24,14 @@ import { NgClass } from '@angular/common';
             border: 1px solid gray;
             border-radius: 5px;
             font-family:'Arial'
+            background-color: white
+            text-align: left
+        }
+        .input-struct{
+            display:inline-block
+        }
+        .label-struct{
+            display:inline-block
         }
     `]
 })
@@ -58,8 +66,8 @@ export class RadioBoxList{
 
     containerClasses:string[] = ['container-struct', 'container-base'];
     titleClasses:string[] = ['title-struct'];
-    inputClasses:string[] =[];
-    labelClasses:string[] =[];
+    inputClasses:string[] =['input-struct'];
+    labelClasses:string[] =['label-struct'];
     private readSetting(value:string):any{
         let c:string[] = value.split(":");
         let v:string[] = c[1].split(",")
