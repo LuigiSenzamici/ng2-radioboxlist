@@ -113,6 +113,7 @@ This project is licensed under the MIT License
 ## Release note
 1.1.0 - bug fix on reading id setted
 1.1.1 - adding input-struct and label-struct classes to default classes
+1.1.2 - bug fix on styles
 
 
 

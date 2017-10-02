@@ -23,15 +23,15 @@ import { NgClass } from '@angular/common';
         .container-base{
             border: 1px solid gray;
             border-radius: 5px;
-            font-family:'Arial'
-            background-color: white
-            text-align: left
+            font-family:'Arial';
+            background-color: white;
+            text-align: left;
         }
         .input-struct{
-            display:inline-block
+            display:inline-block;
         }
         .label-struct{
-            display:inline-block
+            display:inline-block;
         }
     `]
 })
